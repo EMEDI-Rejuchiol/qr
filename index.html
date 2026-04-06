@@ -30,13 +30,7 @@
 
 <script>
 function go(page){
-  localStorage.setItem('lang', page);
   location.href = page;
-}
-
-const saved = localStorage.getItem('lang');
-if(saved){
-  location.href = saved;
 }
 </script>
 
